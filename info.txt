@@ -1,0 +1,42 @@
+-->how we can inject react into project?
+usign cdn 
+usign package
+-->react can work into small part of project so it is library . work indepandently in small portion of project
+-->bundler -vite,webpack,parcel
+           -create-react-app->webpack-bundler
+           -dev-dependency-require during developement  -D used to install
+           -normal dependency
+           -example -jest,eslint,webpack
+-->pacakge.lock.json:store exact version of pacakge and dependency's dependency           
+-->parcel:read doc ,webpack
+        -local server
+        -hmr-hot module replacement (auto refresh)
+        -file watching algorithm
+        -caching -build
+        -image optimization
+        -bundling
+        -compressing
+        -code splitting
+        -tree shaking -remove unused code
+
+-->jsx is makes developer life simple.whitout jsx react is nightmare    
+-->jsx html like syntax but not html
+-->jsx transplile before it reach to js engine it done by babel that install by parcel  (jsx =>html)
+
+--->hooks
+-useState():==>
+use to create state variable
+const {listOfRes,setListOfRes} =useState([])
+whenever state variable changes react rerender component
+-useEffect():==>
+
+//reconciliation algorithm(react fiber):effecient dom manipulation because of VD
+virtual dom:(javascript object)
+reperesentation of actual dom
+
+
+//loader
+simmer ui
+loader
+
+//highrt order component is component that takes component  and  enhance component and return back a component
