@@ -40,3 +40,4 @@ simmer ui
 loader
 
 //highrt order component is component that takes component  and  enhance component and return back a component
+//dobule time api call because react checking twise in development mode that is not happen into a production.so no worry
